@@ -11,7 +11,6 @@ function setTime() {
   Hour_Element.innerText = hour;
   Second_Element.innerText = second;
   Minute_Element.innerText = minute;
-
 }
 
 setInterval(setTime , 1000);
